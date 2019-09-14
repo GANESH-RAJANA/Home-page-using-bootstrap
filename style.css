@@ -1,0 +1,64 @@
+body{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+ /* ////////////////////header///////////////////// */
+
+#header{
+  background: skyblue;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+.rowsetting{
+  margin-top: 10px;
+}
+.cog{
+  margin-top: 10px;
+}
+
+.dropdown{
+  margin-top: 10px !important;
+}
+
+          /* ///////////////mainmenu///////////////////// */
+
+
+.main{
+ margin-top: 20px;
+ margin-left: 20px;
+}
+
+.list-group-item{
+  margin: 15px 0px !important;
+}
+
+.card{
+  margin: 20px 10px;
+}
+
+.table{
+  width: 100% !important;
+}
+
+
+/* //////////////////////media Queries ////////////////////////////////// */
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin Area / Dashboard</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+
+<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!-- //////////////////////////////Navigation////////////////////////// -->
+
+    <nav class="navbar navbar-expand-lg navbar-danger bg-danger">
+  <a class="navbar-brand text-white" href="#">BMEX</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-white" href="#">BITMASS <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">TRADE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">LENDING</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">E-WALLET</a>
+      </li>
+
+    </ul>
+
+    <ul class="navbar-nav ml-auto">
+
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">Welcome , Ganesh</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">Logout</a>
+      </li>
+
+    </ul>
+
+  </div>
+</nav>
+
+          <!-- ////////////////////Header///////////////////// -->
+
+          <div id="header">
+            <div class="container">
+
+            <div class="row rowsetting">
+              <div class="col-md-10">
+              <h3 class="cog"> <i class="fa fa-cog"></i> Dashboard <small>Manage your site</small></h3>
+              </div>
+              <div class="col-md-2">
+                            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  create content
+                </button>
+                <div class="dropdown-menu bg-primary" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Add pages</a>
+                  <a class="dropdown-item" href="#">Add users</a>
+                  <a class="dropdown-item" href="#">Add posts</a>
+                </div>
+              </div>
+              </div>
+
+            </div>
+              </div>
+          </div>
+
+
+            <!-- ///////////////////main menu////////////////////////////// -->
+
+            <section class="main">
+
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active">
+                    Dashboard
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action bg-light"><i class="fa fa-btc fa-2x" aria-hidden="true"></i> My Wallet</a>
+                    <a href="#" class="list-group-item list-group-item-action bg-light"> <i class="fa fa-list  fa-2x"   aria-hidden="true"></i> My Active Orders</a>
+                    <a href="#" class="list-group-item list-group-item-action bg-light"> <i class="fa fa-history  fa-2x"   aria-hidden="true"></i> Transtion History </a>
+                    <a href="#" class="list-group-item list-group-item-action bg-light"><i class="fa fa-credit-card-alt fa-2x" aria-hidden="true"></i> Payment Gateway</a>
+                  </div>
+
+                  </div>
+                  <div class="col-md-9">
+                    <div class="card">
+                      <div class="card-body">
+                      <i>BITMASS</i>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <div class="card-body bg-dark">
+                      <i class="text-white">User ID: R121926</i>
+                      </div>
+                    </div>
+
+                    <div class="container">
+                        <nav class="navbar navbar-expand-lg navbar-warning bg-warning">
+
+                          <div class="dropdown show">
+                             <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              select currency
+                             </a>
+
+                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                               <a class="dropdown-item" href="#">BITCOIN</a>
+                               <a class="dropdown-item" href="#">ETHEREUM</a>
+                               <a class="dropdown-item" href="#">BITMASS</a>
+                             </div>
+                           </div>
+
+                          <form class="form-inline ml-auto">
+                          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success my-2 my-sm-0 text-grey" type="submit">Search</button>
+                        </form>
+                        </nav>
+
+                        <table class="table text-center bg-light">
+                            <thead>
+                              <tr>
+
+                                <th scope="col">NAME</th>
+                                <th scope="col">BALANCE</th>
+                                <th scope="col">ON ORDERS</th>
+                                  <th scope="col">ON WITHDRAWS</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row"> <i class="fa fa-btc fa-2x" aria-hidden="true"></i> BTC</th>
+                                <td>0.000</td>
+                                <td>0.000</td>
+                                <td>0.000</td>
+
+                                <td><a href="bitcoin.html"> <button type="button" class="btn btn-primary">Deposit</button></a>
+                                  <button type="button" class="btn btn-secondary">Withdraw</button>
+                                  <button type="button" class="btn btn-success">Transfer</button>
+                                </td>
+
+
+                              </tr>
+                              <tr>
+                                <th scope="row"> <i class="fa fa-ethereum fa-2x" aria-hidden="true"></i> ETH</th>
+                                <td>0.000</td>
+                                <td>0.000</td>
+                                <td>0.000</td>
+
+                                <td >  <button type="button" class="btn btn-primary">Deposit</button>
+                                  <button type="button" class="btn btn-secondary">Withdraw</button>
+                                  <button type="button" class="btn btn-success">Transfer</button>
+                                </td>
+
+                              </tr>
+                              <tr>
+                                <th scope="row">BMX</th>
+                                <td>0.000</td>
+                                <td>0.000</td>
+                                <td>0.000</td>
+
+                                <td>  <button type="button" class="btn btn-primary">Deposit</button>
+                                  <button type="button" class="btn btn-secondary">Withdraw</button>
+                                  <button type="button" class="btn btn-success">Transfer</button>
+                                </td>
+
+                              </tr>
+
+                              <tr>
+                                <th scope="row">Litecoin</th>
+                                <td>0.000</td>
+                                <td>0.000</td>
+                                <td>0.000</td>
+
+                                <td> <button type="button" class="btn btn-primary">Deposit</button>
+                                  <button type="button" class="btn btn-secondary ">Withdraw</button>
+                                  <button type="button" class="btn btn-success">Transfer</button>
+                                </td>
+
+                              </tr>
+
+                              <tr>
+                                <th scope="row">Ripple</th>
+                                <td>0.000</td>
+                                <td>0.000</td>
+                                <td>0.000</td>
+
+                                <td>  <button type="button" class="btn btn-primary">Deposit</button>
+                                  <button type="button" class="btn btn-secondary">Withdraw</button>
+                                  <button type="button" class="btn btn-success">Transfer</button>
+                                </td>
+
+                              </tr>
+                            </tbody>
+                            </table>
+
+
+                      </div>
+
+
+
+
+
+
+                  </div>
+
+                </div>
+
+           </section>
+  </body>
+</html>
